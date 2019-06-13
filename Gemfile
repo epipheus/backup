@@ -25,19 +25,19 @@ group :production do
   gem 'fog'
   # gem 'excon' - use version specified by fog
   gem 'unf' # for fog/AWS
-  gem 'dropbox-sdk', '1.6.5'
+  gem 'dropbox-sdk'#, '1.6.5'
   gem 'net-ssh'
   gem 'net-scp'
   gem 'net-sftp'
-  gem 'mail', '= 2.6.3' # patched
+  gem 'mail' #, '= 2.6.3' # patched
   gem 'pagerduty'
   gem 'twitter'
   gem 'hipchat'
   gem 'flowdock'
-  gem 'json'
+  gem 'json','2.2.0'
   gem 'dogapi'
   gem 'aws-ses'
-  gem 'qiniu', '~> 6.5.1'
+  gem 'qiniu'
 end
 
 gem 'rspec'
