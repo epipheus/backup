@@ -26,15 +26,15 @@ group :production do
   # gem 'excon' - use version specified by fog
   gem 'unf' # for fog/AWS
   gem 'dropbox-sdk'#, '1.6.5'
-  gem 'net-ssh'
+  gem 'net-ssh', '3.2.0'
   gem 'net-scp'
   gem 'net-sftp'
   gem 'mail' #, '= 2.6.3' # patched
   gem 'pagerduty'
-  gem 'twitter'
+  gem 'twitter', '5.17.0'
   gem 'hipchat'
   gem 'flowdock'
-  gem 'json','2.2.0'
+  gem 'json','~>1.8'
   gem 'dogapi'
   gem 'aws-ses'
   gem 'qiniu'
@@ -46,7 +46,6 @@ gem 'mocha'
 gem 'timecop'
 
 # Omitted from Travis CI Environment
->>>>>>> better-master
 group :no_ci do
   gem "pry"
   gem "rb-fsevent" # Mac OS X
